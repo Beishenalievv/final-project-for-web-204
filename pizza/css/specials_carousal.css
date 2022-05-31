@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.carousal-container {
+  color: black;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.carousal-item {
+  color: black;
+  background-color: orange;
+  padding: 16px;
+  width: max-content;
+  height: fit-content;
+  margin: 32px;
+  height: max-content;
+  border-radius: 10px;
+  width: 25%;
+  cursor: pointer;
+}
+
+.item_text{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+
+  .carousal-container{
+    width: 100vd;
+  }
+
+  .carousal-item{
+    width: 100%;
+  }
+}
